@@ -1,0 +1,11 @@
+[phases]
+[phases.build]
+commands = [
+    "cd aplicacao && mvn clean package",
+    "cd frontend && npm install && npm run build"
+]
+
+[phases.start]
+commands = [
+    "cd aplicacao && java -jar target/*.jar"
+]
