@@ -7,5 +7,5 @@ commands = [
 
 [phases.start]
 commands = [
-    "cd aplicacao/aplicacao && java -jar target/*.jar"
+    "cd aplicacao/aplicacao/target && java -jar aplicacao-0.0.1-SNAPSHOT.jar"
 ]
