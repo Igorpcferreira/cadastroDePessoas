@@ -1,0 +1,23 @@
+<div class="container">
+  <h3>Editar pessoa</h3>
+  <form [formGroup]="formGroup" (ngSubmit)="salvar()">
+    <section class="section">
+      <p>Nome do usuário</p>
+      <input type="text" id="nome" placeholder="Digite seu nome" formControlName="nome">
+    </section>
+    <section class="section">
+      <p>Contato do usuário</p>
+      <div formGroupName="contato">
+        <input type="text" id="telefone" placeholder="Digite seu telefone" formControlName="telefone"
+               [mask]="'(00) 00000-0000'" [placeholder]="'(__) _____-___'" ngxMask>
+      </div>
+    </section>
+    <section class="section">
+      <p>Endereço do usuário</p>
+      <div formGroupName="endereco">
+        <input type="text" id="bairro" placeholder="Digite seu bairro" formControlName="bairro">
+      </div>
+    </section>
+    <button type="submit" [disabled]="!formGroup.valid">Salvar</button>
+  </form>
+</div>

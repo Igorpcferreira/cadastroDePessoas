@@ -1,0 +1,44 @@
+.pessoas-list {
+  padding: 20px;
+
+  h2 {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    text-align: center;
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    td {
+      vertical-align: middle;
+    }
+
+    mat-icon {
+      font-size: 18px;
+      margin-left: 5px;
+      color: #4caf0b;
+      cursor: pointer;
+
+      &:hover {
+        color: #0056b3;
+      }
+    }
+
+    a:last-child mat-icon {
+      color: #dc3545;
+    }
+  }
+}

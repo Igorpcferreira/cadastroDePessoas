@@ -1,0 +1,31 @@
+<div class="pessoas-list">
+  <h2>Lista de Pessoas</h2>
+  <table>
+    <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Contato</th>
+      <th>Bairro</th>
+      <th>Ações</th>
+    </tr>
+    </thead>
+    <tbody *ngIf="pessoas$ | async as pessoas; else loading">
+    <tr *ngFor="let pessoa of pessoas">
+      <td>{{ pessoa.nome }}</td>
+      <td>{{ pessoa.contato.telefone }}</td>
+      <td>{{ pessoa.endereco.bairro }}</td>
+      <td>
+        <a routerLink="/pessoa/editar/{{ pessoa.id }}">
+          <mat-icon aria-hidden="false" aria-label="Editar pessoa">edit</mat-icon>
+        </a>
+        <a (click)="deletar(pessoa.id)">
+          <mat-icon aria-hidden="false" aria-label="Excluir pessoa">delete</mat-icon>
+        </a>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+  <ng-template #loading>
+    <p>Carregando...</p>
+  </ng-template>
+</div>

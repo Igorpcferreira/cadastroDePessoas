@@ -1,0 +1,24 @@
+.container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon i {
+  font-size: 6rem;
+  color: #333;
+}
+
+.icon h1 {
+  font-size: 2rem;
+  margin-top: 20px;
+  color: #333;
+}
