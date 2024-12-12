@@ -17,7 +17,7 @@ import org.springframework.stereotype.Component;
  * <p>Utiliza os mappers {@link ContatoMapper} e {@link EnderecoMapper} para realizar a conversão dos atributos
  * de contato e endereço da {@link Pessoa}.</p>
  *
- * <p>Autor: Igor Ferreira</p>
+ * <p>Autor: (Igor Ferreira)</p>
  */
 @Component
 @RequiredArgsConstructor

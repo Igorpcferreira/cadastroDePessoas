@@ -12,7 +12,7 @@ import lombok.*;
  * As anotações {@code @AllArgsConstructor} e {@code @NoArgsConstructor} geram, respectivamente,
  * um construtor que inicializa todos os campos e um construtor padrão sem argumentos.</p>
  *
- * <p>Autor: Igor Ferreira</p>
+ * <p>Autor: (Igor Ferreira)</p>
  */
 @Entity
 @Getter

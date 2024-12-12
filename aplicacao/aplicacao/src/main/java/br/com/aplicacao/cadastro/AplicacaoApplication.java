@@ -19,7 +19,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *     }
  * }</pre>
  *
- * @author [Igor Ferreira]
+ * @author (Igor Ferreira)
  * @see SpringApplication
  * @see SpringBootApplication
  */

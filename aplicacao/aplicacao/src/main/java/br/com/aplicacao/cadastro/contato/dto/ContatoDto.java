@@ -14,7 +14,7 @@ import lombok.Data;
  * a construção de objetos {@code ContatoDto} utilizando o padrão Builder. A anotação {@code @AllArgsConstructor}
  * gera um construtor que inicializa todos os campos.</p>
  *
- * <p>Autor: Igor Ferreira</p>
+ * <p>Autor: (Igor Ferreira)</p>
  */
 @Data
 @Builder

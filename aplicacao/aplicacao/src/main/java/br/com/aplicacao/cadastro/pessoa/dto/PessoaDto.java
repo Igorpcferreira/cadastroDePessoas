@@ -20,7 +20,7 @@ import lombok.NoArgsConstructor;
  *
  * <p>Este DTO é utilizado em operações de inclusão, alteração, consulta e listagem de pessoas.</p>
  *
- * <p>Autor: Igor Ferreira</p>
+ * <p>Autor: (Igor Ferreira)</p>
  */
 @Data
 @Builder

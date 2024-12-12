@@ -11,7 +11,7 @@ import lombok.Setter;
  * <p>Esta classe utiliza o Lombok para gerar automaticamente os métodos getters, setters,
  * um construtor padrão, um construtor com todos os argumentos e um padrão builder.</p>
  *
- * <p>Autor: Igor Ferreira</p>
+ * <p>Autor: (Igor Ferreira)</p>
  */
 @Getter
 @Setter

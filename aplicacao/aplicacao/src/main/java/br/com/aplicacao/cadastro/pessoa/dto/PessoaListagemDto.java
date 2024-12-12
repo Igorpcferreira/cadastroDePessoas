@@ -19,7 +19,7 @@ import lombok.NoArgsConstructor;
  * <p>O método {@link #toEntity()} converte este DTO de listagem em uma entidade {@link Pessoa},
  * facilitando a integração com a camada de domínio da aplicação.</p>
  *
- * <p>Autor: Igor Ferreira</p>
+ * <p>Autor: (Igor Ferreira)</p>
  */
 @Data
 @Builder

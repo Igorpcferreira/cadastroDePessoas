@@ -25,7 +25,7 @@ import org.springframework.transaction.annotation.Transactional;
  * <p>A anotação {@code @RequiredArgsConstructor} do Lombok é usada para gerar um construtor
  * que inicializa os campos finais {@code contatoMapper} e {@code contatoDataRepository}.</p>
  *
- * <p>Autor: Igor Ferreira</p>
+ * <p>Autor: (Igor Ferreira)</p>
  */
 @Repository
 @Transactional

@@ -19,7 +19,7 @@ import java.util.Optional;
  * <p>Implementações desta interface devem prover lógica para interagir com o repositório
  * de dados subjacente e realizar operações CRUD (Create, Read, Update, Delete).</p>
  *
- * <p>Autor: Igor Ferreira</p>
+ * <p>Autor: (Igor Ferreira)</p>
  */
 public interface PessoaRepository extends BaseRepository<Pessoa, PessoaData> {
 
