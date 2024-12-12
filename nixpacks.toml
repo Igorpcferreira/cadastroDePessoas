@@ -8,5 +8,6 @@ commands = [
 
 [phases.start]
 commands = [
-    "java -jar aplicacao/aplicacao/target/aplicacao-0.0.1-SNAPSHOT.jar"
+    "java -jar aplicacao/aplicacao/target/aplicacao-0.0.1-SNAPSHOT.jar &",
+    "cd aplicacao/frontend/app && node dist/server/main.js"
 ]

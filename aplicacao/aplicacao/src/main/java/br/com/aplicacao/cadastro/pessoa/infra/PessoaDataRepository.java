@@ -18,7 +18,7 @@ import org.springframework.stereotype.Repository;
  *
  * <p>Esta classe é anotada com {@link Repository} para ser reconhecida como um componente de repositório pelo Spring.</p>
  *
- * <p>Autor: João Cleber Dias Maciel</p>
+ * <p>Autor: Igor Ferreira</p>
  */
 @Repository
 public interface PessoaDataRepository extends JpaRepository<PessoaData, Long>, JpaSpecificationExecutor<PessoaData> {

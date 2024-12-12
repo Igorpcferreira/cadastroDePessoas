@@ -13,7 +13,7 @@ import org.springframework.stereotype.Repository;
  *
  * <p>A anotação {@code @Repository} indica que esta interface é um componente de repositório do Spring.</p>
  *
- * <p>Autor: João Cleber Dias Maciel</p>
+ * <p>Autor: Igor Ferreira</p>
  */
 @Repository
 public interface ContatoDataRepository extends JpaRepository<ContatoData, Long>, JpaSpecificationExecutor<ContatoData> {

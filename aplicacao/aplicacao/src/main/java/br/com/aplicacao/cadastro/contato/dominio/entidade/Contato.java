@@ -9,7 +9,7 @@ import lombok.*;
  * um construtor padrão, um construtor com todos os argumentos e um padrão builder.
  * Além disso, possui um construtor adicional que aceita apenas o telefone.</p>
  *
- * <p>Autor: João Cleber Dias Maciel</p>
+ * <p>Autor: Igor Ferreira</p>
  */
 @Getter
 @Builder

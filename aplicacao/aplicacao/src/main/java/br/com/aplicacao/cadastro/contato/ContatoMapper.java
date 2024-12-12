@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
  *
  * <p>A anotação {@code @Component} indica que esta classe é um componente gerenciado pelo Spring.</p>
  *
- * <p>Autor: João Cleber Dias Maciel</p>
+ * <p>Autor: Igor Ferreira</p>
  */
 @Component
 public class ContatoMapper extends BaseMapper<Contato, ContatoData> {

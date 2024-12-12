@@ -15,7 +15,7 @@ import javax.inject.Named;
  *
  * <p>A anotação {@code @Named} é utilizada para que esta classe seja injetada como um bean gerenciado pelo Spring.</p>
  *
- * <p>Autor: João Cleber Dias Maciel</p>
+ * <p>Autor: Igor Ferreira</p>
  */
 @Named
 @RequiredArgsConstructor

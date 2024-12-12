@@ -18,7 +18,7 @@ import org.springframework.stereotype.Service;
  * <p>A anotação {@code @RequiredArgsConstructor} gera um construtor com todos os campos necessários para inicialização automática
  * da dependência {@code repository} através do Spring.</p>
  *
- * <p>Autor: João Cleber Dias Maciel</p>
+ * <p>Autor: Igor Ferreira</p>
  */
 @Service
 @RequiredArgsConstructor

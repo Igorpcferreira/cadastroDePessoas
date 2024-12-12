@@ -14,7 +14,7 @@ import lombok.*;
  * <p>A anotação {@code @NoArgsConstructor} do Lombok gera um construtor padrão sem argumentos.</p>
  * <p>A anotação {@code @AllArgsConstructor} do Lombok gera um construtor com todos os argumentos.</p>
  *
- * <p>Autor: João Cleber Dias Maciel</p>
+ * <p>Autor: Igor Ferreira</p>
  */
 @Getter
 @Builder

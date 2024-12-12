@@ -31,7 +31,7 @@ import java.util.Optional;
  * {@link Transactional} para garantir que todas as operações sejam transacionais, e {@link RequiredArgsConstructor}
  * para gerar um construtor com injeção de dependências para os campos marcados como {@code final}.</p>
  *
- * <p>Autor: João Cleber Dias Maciel</p>
+ * <p>Autor: Igor Ferreira</p>
  */
 @Repository
 @Transactional

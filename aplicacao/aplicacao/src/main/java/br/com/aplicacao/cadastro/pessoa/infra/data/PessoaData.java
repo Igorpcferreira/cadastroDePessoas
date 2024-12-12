@@ -27,7 +27,7 @@ import lombok.NoArgsConstructor;
  * colunas no banco de dados, facilitando a integração entre o modelo de domínio da aplicação e sua representação
  * persistente.</p>
  *
- * <p>Autor: João Cleber Dias Maciel</p>
+ * <p>Autor: Igor Ferreira</p>
  */
 @Entity
 @Getter

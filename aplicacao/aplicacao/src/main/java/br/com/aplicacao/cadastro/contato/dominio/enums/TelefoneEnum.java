@@ -10,7 +10,7 @@ import lombok.Getter;
  * A anotação do Lombok {@code @AllArgsConstructor} é utilizada para gerar um construtor que inicializa
  * a expressão regular.</p>
  *
- * <p>Autor: João Cleber Dias Maciel</p>
+ * <p>Autor: Igor Ferreira</p>
  */
 @AllArgsConstructor
 public enum TelefoneEnum {

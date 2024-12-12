@@ -23,7 +23,7 @@ import java.util.List;
  * para garantir a integridade dos dados. A anotação {@code @RestController} indica que esta classe é um controlador REST.
  * A anotação {@code @CrossOrigin} permite requisições de origens diferentes. O caminho base para os endpoints é {@code /cadastro/pessoa}.</p>
  *
- * <p>Autor: João Cleber Dias Maciel</p>
+ * <p>Autor: Igor Ferreira</p>
  */
 @RestController
 @CrossOrigin(origins = "*")
